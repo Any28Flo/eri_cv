@@ -40,10 +40,11 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
 -Desktop-first workflow
 
 ### Useful resources
 
 - [CSS Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me to learn CSS3. 
 - [CSS3 properties](https://css-tricks.com/almanac/properties/) - A list with common CSS3 properties.
+
+Happy coding! ❤️
