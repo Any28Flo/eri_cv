@@ -1,0 +1,56 @@
+/*
+variables:
+ nombreVariable: asigno un valor */
+ @import url(./header.css);
+ @import url(./hero.css);
+ @import url(./about-me.css);
+ @import url(./social-btns.css);
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --headline2: bold 59px/96px var(--fontBase) ;
+    --headline5: bold 24px/39px  var(--fontBase);
+    --body1:bold 16px/25px  var(--fontBase);
+    --purple:#310A90;
+    --white: #FFFFFF;
+    /* --blue
+    --white:var(--body1);] */
+
+
+}
+
+body{
+    background-color:aquamarine;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:#310A90;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* . -> selec elem por id */
+
+/*Style about-me*/
+
+/*px -> absoluta*/
+/*vh -> flexible -> relativa al viewport(donde lo visualizar telefono ...) */
+/* 100vh = 100%*/
+/* em -> relativa -> va a depender de su parent element*/
+/* computadora */
+*{
+    margin: 0;
+}
+html{
+    font-size: 10px;
+    
+}
+#about-me{
+    height: 50vh;
+    background-color: red;
+   
+
+}
+.about-me-container h1{
+    font-size: 1em;
+}
+/* # -> selec elem por id */

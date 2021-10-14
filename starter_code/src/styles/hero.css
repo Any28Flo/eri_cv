@@ -1,0 +1,27 @@
+#hero{
+    display: flex;
+    flex-direction: row;
+}
+.hero-content h5{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: yellow
+
+}
+.hero-content h2 {
+    /* font-size: 92px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; */
+    font: var(--headline2);
+    margin-bottom: 10px;
+}
+.hero-content p{
+    font: var(--body1);
+    margin-bottom: 10px;
+}
+.hero-img {
+    text-align: center;
+}
+.hero-img img{
+    width: 100%;
+}

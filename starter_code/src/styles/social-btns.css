@@ -1,0 +1,40 @@
+.btn-social{
+    background: white;
+    /* border-top:2px;
+    border-bottom:2px;
+    border-left:2px;
+    border-right: 2px ; 
+    border-style: solid;
+    boder-color: var(--purple)
+    */
+    /* padding-bottom:10px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right: 10px ;  */
+    border: 2px solid var(--purple);
+    padding: 10px;
+    width: 20px;
+    /* height: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+}
+
+
+.button{
+    background: var(--purple);
+    color: var(--white);
+    font: var(--fontBase);
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid var(--purple);
+}
+.social-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+}
