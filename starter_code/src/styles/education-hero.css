@@ -1,0 +1,42 @@
+#education-hero{
+    /* background color  */
+    /* background-color: azure; */
+    background-image: url(./../img/background.jpg) ;
+    height: 95vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#education-hero h1{
+    animation-name: pollito_con_papas;
+    animation-duration: 5s;
+    font-size: 5.2em;
+}
+
+@keyframes pollito_con_papas{
+    0%{
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(10px);      
+        
+    }
+    100%{
+        transform: translateX(0px);
+        
+    }
+}
+#gradiente-hero{
+    height: 100vh;
+    background-image: linear-gradient(180deg,yellow,green);
+    h1{
+
+    }
+    h2{
+
+    }
+}
+#gradiente-radial-hero{
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    height: 100vh;
+}

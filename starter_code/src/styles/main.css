@@ -5,6 +5,7 @@ variables:
  @import url(./hero.css);
  @import url(./about-me.css);
  @import url(./social-btns.css);
+ @import url(education-hero.css);
 :root{
     --fontBase: 'Poppins', sans-serif;
     --headline2: bold 59px/96px var(--fontBase) ;
