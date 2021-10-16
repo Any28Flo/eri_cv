@@ -1,6 +1,88 @@
 body{
-    background-color: aqua;
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, 
+    rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color:#310A90;
+
 }
+
+.img-prof img{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.project-init{
+    padding: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-primary{
+    background-color: #310A90;
+    border: #310A90;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border: solid thin #310A90 ;
+    border-radius: 5px;
+    color: #310A90;
+    font-weight: bold;
+
+}
+
+
+.card{
+    margin: 50px;
+    background-color: rgb(131, 167, 235);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.talk{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 50px;
+}
+
+.talk label{
+    font-weight: bolder;
+}
+
+.talk p{
+    color: cornsilk;
+    text-align: center;
+}
+
+.talk h2{
+    border-left-style: solid;
+    border-bottom-style: solid;
+    background-color: #310A90;
+    color: cornsilk;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-social img{
+    background: white;
+    border: 2px solid #310A90; 
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.navbar{
+    margin: 10px;
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, 
+    rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
