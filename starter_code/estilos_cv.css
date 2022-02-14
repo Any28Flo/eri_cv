@@ -1,0 +1,116 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-style: "Thin 100 italic";
+    background: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+    /*background-repeat:*/
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+      
+}
+
+#primer_estilo{
+    color: #3a42bd;
+    padding-left: 50px;
+}
+
+
+
+#segundo_estilo{
+    color: #3a42bd;
+    padding-left: 200px;
+}
+
+.button {
+    background-color: None;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#tercer{
+    color: white;
+    padding-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+#primer_sec{
+    display: flex;
+    flex-direction: row;
+    color: #3a42bd;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+
+#general{
+    color: #3a42bd;
+}
+
+.font_size{
+    font-size: 2.1rem;
+    font-style: "Thin 100 italic";
+}
+
+.div1{
+    padding-left: 70px;
+}
+
+#segunda_parte{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.background{
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    background-size: 10px 10px;
+}
+
+#hoa{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#CV{
+    background-color: #3a42bd;
+    border: none;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:600px){
+	#header{
+		display: none;
+	}
+	#CV{
+		display: block;
+	}
+}
