@@ -104,3 +104,13 @@ a{
     color: white;
     padding: 10px;
 }
+
+
+@media screen and (max-width:600px){
+	#header{
+		display: none;
+	}
+	#CV{
+		display: block;
+	}
+}
